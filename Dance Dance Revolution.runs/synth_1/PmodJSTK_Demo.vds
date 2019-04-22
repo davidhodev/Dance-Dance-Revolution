@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Mon Apr 15 15:14:13 2019
-# Process ID: 6460
+# Start of session at: Mon Apr 22 15:45:16 2019
+# Process ID: 1376
 # Current directory: S:/Dance Dance Revolution/Dance Dance Revolution.runs/synth_1
 # Command line: vivado.exe -log PmodJSTK_Demo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PmodJSTK_Demo.tcl
 # Log file: S:/Dance Dance Revolution/Dance Dance Revolution.runs/synth_1/PmodJSTK_Demo.vds
@@ -15,9 +15,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 16120 
+INFO: Helper process launched with PID 6524 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 437.949 ; gain = 97.496
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 437.887 ; gain = 98.516
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'PmodJSTK_Demo' [S:/joystickFinal/PmodJSTK_Demo.v:38]
 INFO: [Synth 8-6157] synthesizing module 'PmodJSTK' [S:/joystickFinal/PmodJSTK.v:24]
@@ -52,12 +52,36 @@ INFO: [Synth 8-155] case statement is not full and has no default [S:/joystickFi
 INFO: [Synth 8-6155] done synthesizing module 'Binary_To_BCD' (5#1) [S:/joystickFinal/Binary_To_BCD.v:30]
 INFO: [Synth 8-226] default block is never used [S:/joystickFinal/ssdCtrl.v:144]
 INFO: [Synth 8-6155] done synthesizing module 'ssdCtrl' (6#1) [S:/joystickFinal/ssdCtrl.v:28]
+WARNING: [Synth 8-689] width (8) of port connection 'AN' does not match port width (4) of module 'ssdCtrl' [S:/joystickFinal/PmodJSTK_Demo.v:132]
 INFO: [Synth 8-6157] synthesizing module 'ClkDiv_5Hz' [S:/joystickFinal/ClkDiv_5Hz.v:20]
 	Parameter cntEndVal bound to: 24'b100110001001011010000000 
 INFO: [Synth 8-6155] done synthesizing module 'ClkDiv_5Hz' (7#1) [S:/joystickFinal/ClkDiv_5Hz.v:20]
+WARNING: [Synth 8-567] referenced signal 'xData' should be on the sensitivity list [S:/joystickFinal/PmodJSTK_Demo.v:167]
+WARNING: [Synth 8-567] referenced signal 'yData' should be on the sensitivity list [S:/joystickFinal/PmodJSTK_Demo.v:167]
+WARNING: [Synth 8-567] referenced signal 'BTNL' should be on the sensitivity list [S:/joystickFinal/PmodJSTK_Demo.v:167]
+WARNING: [Synth 8-567] referenced signal 'BTNR' should be on the sensitivity list [S:/joystickFinal/PmodJSTK_Demo.v:167]
+WARNING: [Synth 8-567] referenced signal 'BTND' should be on the sensitivity list [S:/joystickFinal/PmodJSTK_Demo.v:167]
+WARNING: [Synth 8-567] referenced signal 'BTNU' should be on the sensitivity list [S:/joystickFinal/PmodJSTK_Demo.v:167]
 INFO: [Synth 8-6155] done synthesizing module 'PmodJSTK_Demo' (8#1) [S:/joystickFinal/PmodJSTK_Demo.v:38]
+WARNING: [Synth 8-3917] design PmodJSTK_Demo has port AN[7] driven by constant 0
+WARNING: [Synth 8-3917] design PmodJSTK_Demo has port AN[6] driven by constant 0
+WARNING: [Synth 8-3917] design PmodJSTK_Demo has port AN[5] driven by constant 0
+WARNING: [Synth 8-3917] design PmodJSTK_Demo has port AN[4] driven by constant 0
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[15]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[14]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[13]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[12]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[11]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[10]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[9]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[8]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[7]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[6]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[5]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[4]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[3]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 494.004 ; gain = 153.551
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 493.891 ; gain = 154.520
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -70,10 +94,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 494.004 ; gain = 153.551
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 493.891 ; gain = 154.520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 494.004 ; gain = 153.551
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 493.891 ; gain = 154.520
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -81,45 +105,39 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc]
-WARNING: [Vivado 12-584] No ports matched 'JB[1]'. [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc:58]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc:58]
+WARNING: [Vivado 12-584] No ports matched 'CPU_RESETN'. [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc:85]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'JB[2]'. [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc:59]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc:59]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'JB[3]'. [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc:60]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc:60]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'JB[10]'. [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc:61]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc:61]
+WARNING: [Vivado 12-584] No ports matched 'BTNC'. [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc:87]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
 Finished Parsing XDC File [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [S:/Dance Dance Revolution/Dance Dance Revolution.srcs/constrs_1/new/constr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/PmodJSTK_Demo_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/PmodJSTK_Demo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 838.969 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 838.703 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 838.969 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 838.703 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 838.969 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 838.969 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 838.703 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 838.703 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 838.969 ; gain = 498.516
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 838.703 ; gain = 499.332
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 838.969 ; gain = 498.516
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 838.703 ; gain = 499.332
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 838.969 ; gain = 498.516
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 838.703 ; gain = 499.332
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'pState_reg' in module 'spiCtrl'
 INFO: [Synth 8-5544] ROM "SS" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
@@ -171,7 +189,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'pState_reg' using encoding
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'STATE_reg' using encoding 'sequential' in module 'Binary_To_BCD'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:21 . Memory (MB): peak = 838.969 ; gain = 498.516
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 838.703 ; gain = 499.332
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -218,8 +236,9 @@ Detailed RTL Component Info :
 	   4 Input      5 Bit        Muxes := 1     
 	   4 Input      4 Bit        Muxes := 2     
 	   2 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
 	   5 Input      3 Bit        Muxes := 2     
-	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 5     
 	   4 Input      2 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
 	   5 Input      1 Bit        Muxes := 8     
@@ -236,7 +255,8 @@ Module PmodJSTK_Demo
 Detailed RTL Component Info : 
 +---Muxes : 
 	   2 Input     10 Bit        Muxes := 1     
-	   2 Input      3 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
 Module spiCtrl 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -337,13 +357,30 @@ Warning: Parallel synthesis criteria is not met
 INFO: [Synth 8-5546] ROM "PmodJSTK_Int/SerialClock/CLKOUT" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "DispCtrl/DCLK" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "genSndRec/CLKOUT" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-3886] merging instance 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[2]' (FDRE_1) to 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[6]'
-INFO: [Synth 8-3886] merging instance 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[3]' (FDRE_1) to 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[6]'
-INFO: [Synth 8-3886] merging instance 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[4]' (FDRE_1) to 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[6]'
+WARNING: [Synth 8-3917] design PmodJSTK_Demo has port AN[7] driven by constant 0
+WARNING: [Synth 8-3917] design PmodJSTK_Demo has port AN[6] driven by constant 0
+WARNING: [Synth 8-3917] design PmodJSTK_Demo has port AN[5] driven by constant 0
+WARNING: [Synth 8-3917] design PmodJSTK_Demo has port AN[4] driven by constant 0
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[15]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[14]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[13]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[12]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[11]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[10]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[9]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[8]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[7]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[6]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[5]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[4]
+WARNING: [Synth 8-3331] design PmodJSTK_Demo has unconnected port SW[3]
+INFO: [Synth 8-3886] merging instance 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[2]' (FDRE_1) to 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[3]'
+INFO: [Synth 8-3886] merging instance 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[3]' (FDRE_1) to 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[4]'
+INFO: [Synth 8-3886] merging instance 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[4]' (FDRE_1) to 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[5]'
 INFO: [Synth 8-3886] merging instance 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[5]' (FDRE_1) to 'PmodJSTK_Int/SPI_Ctrl/sndData_reg[6]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\PmodJSTK_Int/SPI_Ctrl/sndData_reg[6] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 838.969 ; gain = 498.516
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 838.703 ; gain = 499.332
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -355,13 +392,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 838.969 ; gain = 498.516
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 838.703 ; gain = 499.332
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 838.969 ; gain = 498.516
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 838.703 ; gain = 499.332
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -373,7 +410,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 857.098 ; gain = 516.645
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 858.250 ; gain = 518.879
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -397,7 +434,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 857.098 ; gain = 516.645
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 858.250 ; gain = 518.879
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -410,7 +447,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:33 . Memory (MB): peak = 857.098 ; gain = 516.645
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 858.250 ; gain = 518.879
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -422,25 +459,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:33 . Memory (MB): peak = 857.098 ; gain = 516.645
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 858.250 ; gain = 518.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:33 . Memory (MB): peak = 857.098 ; gain = 516.645
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 858.250 ; gain = 518.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:33 . Memory (MB): peak = 857.098 ; gain = 516.645
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 858.250 ; gain = 518.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:33 . Memory (MB): peak = 857.098 ; gain = 516.645
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 858.250 ; gain = 518.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -458,53 +495,53 @@ Report Cell Usage:
 +------+-------+------+
 |1     |BUFG   |     2|
 |2     |CARRY4 |    10|
-|3     |LUT1   |     2|
-|4     |LUT2   |    76|
-|5     |LUT3   |    39|
-|6     |LUT4   |    27|
-|7     |LUT5   |    33|
-|8     |LUT6   |    34|
-|9     |FDRE   |   216|
+|3     |LUT1   |     1|
+|4     |LUT2   |    66|
+|5     |LUT3   |    42|
+|6     |LUT4   |    36|
+|7     |LUT5   |    29|
+|8     |LUT6   |    44|
+|9     |FDRE   |   213|
 |10    |FDSE   |     3|
-|11    |IBUF   |     6|
-|12    |OBUF   |    17|
+|11    |IBUF   |    10|
+|12    |OBUF   |    25|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+----------------+----------------+------+
 |      |Instance        |Module          |Cells |
 +------+----------------+----------------+------+
-|1     |top             |                |   465|
-|2     |  DispCtrl      |ssdCtrl         |   168|
-|3     |    BtoBCD      |Binary_To_BCD   |   122|
-|4     |  PmodJSTK_Int  |PmodJSTK        |   209|
-|5     |    SPI_Ctrl    |spiCtrl         |   136|
+|1     |top             |                |   481|
+|2     |  DispCtrl      |ssdCtrl         |   162|
+|3     |    BtoBCD      |Binary_To_BCD   |   116|
+|4     |  PmodJSTK_Int  |PmodJSTK        |   216|
+|5     |    SPI_Ctrl    |spiCtrl         |   143|
 |6     |    SPI_Int     |spiMode0        |    46|
 |7     |    SerialClock |ClkDiv_66_67kHz |    27|
 |8     |  genSndRec     |ClkDiv_5Hz      |    63|
 +------+----------------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:33 . Memory (MB): peak = 857.098 ; gain = 516.645
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 858.250 ; gain = 518.879
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 857.098 ; gain = 171.680
-Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 857.098 ; gain = 516.645
+Synthesis finished with 0 errors, 0 critical warnings and 17 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 858.250 ; gain = 174.066
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 858.250 ; gain = 518.879
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 860.754 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 859.035 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-62 Infos, 4 Warnings, 4 Critical Warnings and 0 Errors encountered.
+62 Infos, 43 Warnings, 2 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:35 . Memory (MB): peak = 860.754 ; gain = 533.309
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 860.754 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:34 . Memory (MB): peak = 859.035 ; gain = 532.676
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 859.035 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'S:/Dance Dance Revolution/Dance Dance Revolution.runs/synth_1/PmodJSTK_Demo.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file PmodJSTK_Demo_utilization_synth.rpt -pb PmodJSTK_Demo_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Apr 15 15:14:55 2019...
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 22 15:45:55 2019...

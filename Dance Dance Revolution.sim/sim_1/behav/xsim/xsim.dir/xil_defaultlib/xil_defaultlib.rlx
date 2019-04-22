@@ -1,0 +1,13 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+S:/Dance Dance Revolution/Dance Dance Revolution.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+S:/joystickFinal/Binary_To_BCD.v,1555359739,verilog,,S:/joystickFinal/ClkDiv_5Hz.v,,Binary_To_BCD,,,,,,,,
+S:/joystickFinal/ClkDiv_5Hz.v,1551648324,verilog,,S:/joystickFinal/ClkDiv_66_67kHz.v,,ClkDiv_5Hz,,,,,,,,
+S:/joystickFinal/ClkDiv_66_67kHz.v,1551648324,verilog,,S:/joystickFinal/PmodJSTK.v,,ClkDiv_66_67kHz,,,,,,,,
+S:/joystickFinal/PmodJSTK.v,1555358055,verilog,,S:/joystickFinal/SPImode0.v,,PmodJSTK,,,,,,,,
+S:/joystickFinal/PmodJSTK_Demo.v,1555358212,verilog,,,,PmodJSTK_Demo,,,,,,,,
+S:/joystickFinal/SPImode0.v,1551648326,verilog,,S:/joystickFinal/spiCtrl.v,,spiMode0,,,,,,,,
+S:/joystickFinal/spiCtrl.v,1555356107,verilog,,S:/joystickFinal/ssdCtrl.v,,spiCtrl,,,,,,,,
+S:/joystickFinal/ssdCtrl.v,1555357558,verilog,,S:/joystickFinal/PmodJSTK_Demo.v,,ssdCtrl,,,,,,,,

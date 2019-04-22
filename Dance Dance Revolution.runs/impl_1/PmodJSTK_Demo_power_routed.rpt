@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date             : Mon Apr 15 15:16:21 2019
+| Date             : Mon Apr 22 15:47:18 2019
 | Host             : CSE021WK-W10 running 64-bit major release  (build 9200)
 | Command          : report_power -file PmodJSTK_Demo_power_routed.rpt -pb PmodJSTK_Demo_power_summary_routed.pb -rpx PmodJSTK_Demo_power_routed.rpx
 | Design           : PmodJSTK_Demo
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 27.731 (Junction temp exceeded!) |
+| Total On-Chip Power (W)  | 29.805 (Junction temp exceeded!) |
 | Design Power Budget (W)  | Unspecified*                     |
 | Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 26.934                           |
+| Dynamic (W)              | 29.008                           |
 | Device Static (W)        | 0.797                            |
 | Effective TJA (C/W)      | 4.6                              |
 | Max Ambient (C)          | 0.0                              |
@@ -52,16 +52,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.803 |      450 |       --- |             --- |
-|   LUT as Logic |     0.727 |      147 |     63400 |            0.23 |
-|   Register     |     0.046 |      219 |    126800 |            0.17 |
-|   CARRY4       |     0.024 |       10 |     15850 |            0.06 |
+| Slice Logic    |     0.799 |      456 |       --- |             --- |
+|   LUT as Logic |     0.725 |      153 |     63400 |            0.24 |
+|   Register     |     0.045 |      216 |    126800 |            0.17 |
+|   CARRY4       |     0.023 |       10 |     15850 |            0.06 |
 |   BUFG         |     0.006 |        2 |        32 |            6.25 |
-|   Others       |     0.000 |        8 |       --- |             --- |
-| Signals        |     0.743 |      315 |       --- |             --- |
-| I/O            |    25.388 |       23 |       210 |           10.95 |
+|   Others       |     0.000 |       10 |       --- |             --- |
+| Signals        |     0.750 |      323 |       --- |             --- |
+| I/O            |    27.459 |       35 |       210 |           16.67 |
 | Static Power   |     0.797 |          |           |                 |
-| Total          |    27.731 |          |           |                 |
+| Total          |    29.805 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,9 +71,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     2.128 |       1.566 |      0.563 |
-| Vccaux    |       1.800 |     1.022 |       0.930 |      0.093 |
-| Vcco33    |       3.300 |     7.184 |       7.180 |      0.004 |
+| Vccint    |       1.000 |     2.147 |       1.585 |      0.563 |
+| Vccaux    |       1.800 |     1.098 |       1.005 |      0.093 |
+| Vcco33    |       3.300 |     7.766 |       7.762 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
@@ -138,14 +138,14 @@ Table of Contents
 +-----------------+-----------+
 | Name            | Power (W) |
 +-----------------+-----------+
-| PmodJSTK_Demo   |    26.934 |
-|   DispCtrl      |     0.837 |
-|     BtoBCD      |     0.414 |
-|   PmodJSTK_Int  |     0.274 |
-|     SPI_Ctrl    |     0.025 |
-|     SPI_Int     |     0.120 |
-|     SerialClock |     0.129 |
-|   genSndRec     |     0.400 |
+| PmodJSTK_Demo   |    29.008 |
+|   DispCtrl      |     0.830 |
+|     BtoBCD      |     0.408 |
+|   PmodJSTK_Int  |     0.314 |
+|     SPI_Ctrl    |     0.036 |
+|     SPI_Int     |     0.136 |
+|     SerialClock |     0.142 |
+|   genSndRec     |     0.331 |
 +-----------------+-----------+
 
 

@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "S:/joystickFinal/Binary_To_BCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Binary_To_BCD
+WARNING: [VRFC 10-3380] identifier 'Idle' is used before its declaration [S:/joystickFinal/Binary_To_BCD.v:57]
+INFO: [VRFC 10-2263] Analyzing Verilog file "S:/joystickFinal/ClkDiv_5Hz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDiv_5Hz
+INFO: [VRFC 10-2263] Analyzing Verilog file "S:/joystickFinal/ClkDiv_66_67kHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDiv_66_67kHz
+INFO: [VRFC 10-2263] Analyzing Verilog file "S:/joystickFinal/PmodJSTK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PmodJSTK
+INFO: [VRFC 10-2263] Analyzing Verilog file "S:/joystickFinal/SPImode0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spiMode0
+INFO: [VRFC 10-2263] Analyzing Verilog file "S:/joystickFinal/spiCtrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spiCtrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "S:/joystickFinal/ssdCtrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ssdCtrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "S:/joystickFinal/PmodJSTK_Demo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PmodJSTK_Demo
+INFO: [VRFC 10-2458] undeclared symbol posDataA, assumed default net type wire [S:/joystickFinal/PmodJSTK_Demo.v:161]

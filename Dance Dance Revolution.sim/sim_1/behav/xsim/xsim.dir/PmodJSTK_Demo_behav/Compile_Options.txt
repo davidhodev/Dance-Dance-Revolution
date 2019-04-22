@@ -1,0 +1,1 @@
+-wto "ae465938575848428b8e7fc011e27e4e" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "PmodJSTK_Demo_behav" "xil_defaultlib.PmodJSTK_Demo" "xil_defaultlib.glbl" -log "elaborate.log" 

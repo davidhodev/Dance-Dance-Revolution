@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Mon Apr 15 15:16:20 2019
+| Date         : Mon Apr 22 15:47:18 2019
 | Host         : CSE021WK-W10 running 64-bit major release  (build 9200)
 | Command      : report_methodology -file PmodJSTK_Demo_methodology_drc_routed.rpt -pb PmodJSTK_Demo_methodology_drc_routed.pb -rpx PmodJSTK_Demo_methodology_drc_routed.rpx
 | Design       : PmodJSTK_Demo
@@ -23,11 +23,11 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 219
+             Violations found: 216
 +-----------+----------+-----------------------------+------------+
 | Rule      | Severity | Description                 | Violations |
 +-----------+----------+-----------------------------+------------+
-| TIMING-17 | Warning  | Non-clocked sequential cell | 219        |
+| TIMING-17 | Warning  | Non-clocked sequential cell | 216        |
 +-----------+----------+-----------------------------+------------+
 
 2. REPORT DETAILS
@@ -444,685 +444,670 @@ Related violations: <none>
 
 TIMING-17#83 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[0]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[16]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#84 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[16]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[17]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#85 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[17]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[18]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#86 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[18]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[19]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#87 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[19]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[20]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#88 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[1]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[21]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#89 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[20]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[22]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#90 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[21]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[23]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#91 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[22]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[24]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#92 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[23]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[25]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#93 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[24]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[32]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#94 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[25]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[33]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#95 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[2]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[34]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#96 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[32]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[35]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#97 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[33]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[36]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#98 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[34]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[37]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#99 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[35]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[38]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#100 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[36]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[39]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#101 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[37]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[8]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#102 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[38]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[9]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#103 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[39]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/FSM_onehot_pState_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#104 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[8]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/FSM_onehot_pState_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#105 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/DOUT_reg[9]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/FSM_onehot_pState_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#106 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/FSM_onehot_pState_reg[0]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/FSM_onehot_pState_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#107 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/FSM_onehot_pState_reg[1]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/FSM_onehot_pState_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#108 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/FSM_onehot_pState_reg[2]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/SS_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#109 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/FSM_onehot_pState_reg[3]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/byteCnt_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#110 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/FSM_onehot_pState_reg[4]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/byteCnt_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#111 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/SS_reg/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/byteCnt_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#112 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/byteCnt_reg[0]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/getByte_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#113 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/byteCnt_reg[1]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/sndData_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#114 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/byteCnt_reg[2]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/sndData_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#115 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/getByte_reg/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/sndData_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#116 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/sndData_reg[0]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#117 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/sndData_reg[1]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[10]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#118 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/sndData_reg[7]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[11]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#119 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[0]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[12]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#120 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[10]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[13]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#121 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[11]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[14]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#122 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[12]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[15]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#123 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[13]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[16]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#124 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[14]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[17]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#125 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[15]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[18]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#126 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[16]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[19]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#127 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[17]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#128 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[18]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[20]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#129 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[19]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[21]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#130 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[1]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[22]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#131 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[20]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[23]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#132 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[21]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[24]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#133 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[22]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[25]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#134 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[23]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[26]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#135 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[24]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[27]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#136 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[25]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[28]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#137 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[26]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[29]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#138 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[27]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#139 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[28]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[30]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#140 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[29]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[31]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#141 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[2]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[32]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#142 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[30]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[33]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#143 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[31]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[34]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#144 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[32]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[35]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#145 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[33]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[36]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#146 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[34]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[37]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#147 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[35]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[38]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#148 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[36]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[39]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#149 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[37]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#150 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[38]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#151 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[39]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#152 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[3]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#153 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[4]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#154 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[5]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[8]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#155 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[6]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[9]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#156 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[7]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/BUSY_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#157 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[8]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/CE_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#158 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Ctrl/tmpSR_reg[9]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/FSM_sequential_pState_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#159 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/BUSY_reg/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/FSM_sequential_pState_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#160 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/CE_reg/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/bitCount_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#161 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/FSM_sequential_pState_reg[0]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/bitCount_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#162 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/FSM_sequential_pState_reg[1]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/bitCount_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#163 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/bitCount_reg[0]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/bitCount_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#164 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/bitCount_reg[1]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/bitCount_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#165 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/bitCount_reg[2]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#166 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/bitCount_reg[3]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#167 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/bitCount_reg[4]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#168 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[0]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#169 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[1]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#170 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[2]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#171 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[3]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#172 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[4]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#173 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[5]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#174 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[6]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#175 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/rSR_reg[7]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#176 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[0]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#177 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[1]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#178 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[2]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#179 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[3]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#180 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[4]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#181 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[5]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SerialClock/CLKOUT_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#182 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[6]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#183 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SPI_Int/wSR_reg[7]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#184 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SerialClock/CLKOUT_reg/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#185 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[0]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#186 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[1]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#187 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[2]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#188 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[3]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#189 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[4]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#190 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[5]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[8]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#191 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[6]/C is not reached by a timing clock
+The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[9]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#192 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[7]/C is not reached by a timing clock
+The clock pin genSndRec/CLKOUT_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#193 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[8]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#194 Warning
 Non-clocked sequential cell  
-The clock pin PmodJSTK_Int/SerialClock/clkCount_reg[9]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[10]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#195 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/CLKOUT_reg/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[11]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#196 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[0]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[12]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#197 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[10]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[13]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#198 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[11]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[14]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#199 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[12]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[15]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#200 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[13]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[16]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#201 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[14]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[17]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#202 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[15]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[18]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#203 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[16]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[19]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#204 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[17]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#205 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[18]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[20]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#206 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[19]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[21]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#207 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[1]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[22]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#208 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[20]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[23]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#209 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[21]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#210 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[22]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#211 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[23]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#212 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[2]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#213 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[3]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#214 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[4]/C is not reached by a timing clock
+The clock pin genSndRec/clkCount_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#215 Warning
 Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[5]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#216 Warning
-Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[6]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#217 Warning
-Non-clocked sequential cell  
-The clock pin genSndRec/clkCount_reg[7]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#218 Warning
-Non-clocked sequential cell  
 The clock pin genSndRec/clkCount_reg[8]/C is not reached by a timing clock
 Related violations: <none>
 
-TIMING-17#219 Warning
+TIMING-17#216 Warning
 Non-clocked sequential cell  
 The clock pin genSndRec/clkCount_reg[9]/C is not reached by a timing clock
 Related violations: <none>

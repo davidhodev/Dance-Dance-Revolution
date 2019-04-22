@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../joystickFinal/Binary_To_BCD.v" \
+"../../../../../joystickFinal/ClkDiv_5Hz.v" \
+"../../../../../joystickFinal/ClkDiv_66_67kHz.v" \
+"../../../../../joystickFinal/PmodJSTK.v" \
+"../../../../../joystickFinal/SPImode0.v" \
+"../../../../../joystickFinal/spiCtrl.v" \
+"../../../../../joystickFinal/ssdCtrl.v" \
+"../../../../../joystickFinal/PmodJSTK_Demo.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
